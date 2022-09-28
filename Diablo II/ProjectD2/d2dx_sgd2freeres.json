@@ -1,0 +1,25 @@
+{
+    "D2DX": "PLEASE DO NOT EDIT THIS CONFIGURATION FILE. IT IS GENERATED ON EVERY STARTUP.",
+    "SlashGaming Diablo II Free Resolution": {
+        "!!!Metadata (Do not modify)!!!": {
+            "Major Version A": 3,
+            "Major Version B": 0,
+            "Minor Version A": 1,
+            "Minor Version B": 0
+        },
+        "Ingame Resolutions": [
+            "640x480",
+            "800x600",
+            "960x540"
+        ],
+        "Ingame Resolution Mode": 2,
+        "Main Menu Resolution": "800x600",
+        "Custom MPQ File": "d2dx_sgd2freeres.mpq",
+        "Enable Screen Border Frame?": true,
+        "Use Original Screen Border Frame?": false,
+        "Use 800 Interface Bar?": true
+    },
+    "!!!Globals!!!": {
+        "Config Tab Width": 4
+    }
+}
