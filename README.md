@@ -8,7 +8,7 @@ This repo includes my files for playing the game using PlugY w/ some minor game 
 
 ## Soft Mods
 
-Included in this repo are some TXT file changes I've tinkered with, sorted by season.
+Included in this repo are some TXT file changes I've tinkered with, sorted by season.  These changes usually involve minor tweaks, such as Countess always droping 3 runes and Cube enabling rune downgrades.
 
 ## Hard Mods
 
