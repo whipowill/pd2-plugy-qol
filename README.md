@@ -6,25 +6,11 @@ This repo includes my files for playing the game using PlugY w/ some minor game 
 
 **Updated to Season 8.**
 
-## Changes
+## Soft Mods
 
-Right now I'm playing w/ minor changes to the game files to make SP more enjoyable.
+Included in this repo are some TXT file changes I've tinkered with, sorted by season.
 
-- Drops
-	- Countess always drops 3 runes
-		- Normal up to Lem
-		- Nightmare up to Vex
-		- Hell up to Cham
-- Cube
-	- Upgrade 2 runes -> 1 higher rank rune
-	- Downgrade rune -> 2 lower rank runes
-	- Upgrade 3 gems -> 1 higher rank gem
-	- Downgrade gem -> 3 lower rank gems
-	- Use a key w/ a socketed item and get the runes back
-
-My plan is to extract the game files and make these edits every season.
-
-## Mods
+## Hard Mods
 
 To my knowledge, there are no mods that work other than PlugY, which excludes the legendary [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492).
 
