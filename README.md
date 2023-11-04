@@ -24,18 +24,20 @@ Right now I'm playing w/ minor changes to the game files to make SP more enjoyab
 
 My plan is to extract the game files and make these edits every season.
 
-## Loot Filter
+## Mods
 
-Includes my custom loot filter I ported over from [SlashDiablo](https://slashdiablo.net/).
-
-## Notes
-
-To my knowledge, there are no mods that can work with PD2 other than PlugY, which excludes the legendary [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492).
+To my knowledge, there are no mods that work other than PlugY, which excludes the legendary [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492).
 
 - In PlugY, you must have shared gold disabled as it conflicts with PD2
 - In PlugY, the ``EnabledTXTFilesWhenMSExcelOpenIt`` option doesn't seem to work
 
 See the wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page to read more.
+
+## Loot Filter
+
+Includes my custom loot filter I ported over from [SlashDiablo](https://slashdiablo.net/).
+
+See the loot filter [rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) page to read more.
 
 ## External Links
 
@@ -50,4 +52,3 @@ Tools
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - original PlugY modifications
 - [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - for editing game TXT files
 - [MPQEditor](http://www.zezula.net/en/mpq/download.html) - for extracting game TXT files
-- [LootFilter](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - rules for loot filters
