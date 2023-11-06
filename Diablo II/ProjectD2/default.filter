@@ -84,18 +84,6 @@ ItemDisplay[NORM]: %LIGHT_GRAY%0| %NAME%%CONTINUE%
 ItemDisplay[EXC]: %LIGHT_GRAY%0|%RED%| %NAME%%CONTINUE%
 ItemDisplay[ELT]: %LIGHT_GRAY%0|%RED%|%PURPLE%| %NAME%%CONTINUE%
 
-// Alarms
-ItemDisplay[UNI]: %NAME%%MAP-53%%CONTINUE% // uniques
-ItemDisplay[SET]: %NAME%%MAP-84%%CONTINUE% // sets
-ItemDisplay[NMAG ELT CHEST ETH]: %NAME%%MAP-20%%CONTINUE% // merc armors
-
-// Trophy Items
-//ItemDisplay[(MAG OR RARE) CIRC (FCR>19 OR FRW>19) ID]: %NAME%%MAP-97%%CONTINUE% // fcr or frw
-//ItemDisplay[MAG (CIRC OR amu) (STAT34>9 OR STAT35>9) ID]: %NAME%%MAP-97%%CONTINUE% // life everlasting
-//ItemDisplay[MAG (POLEARM OR JAV OR SPEAR OR MACE) TABSK33>2 ID]: %NAME%%MAP-97%%CONTINUE% // BO sticks
-//ItemDisplay[MAG uit FBR>29 ID]: %NAME%%MAP-97%%CONTINUE% // jewlers monarch
-//ItemDisplay[(MAG OR RARE) GLOVES IAS>19 ID]: %NAME%%MAP-97%%CONTINUE% // amazon gloves
-
 // Ignore inferior items (except Wirt's leg)
 ItemDisplay[FILTLVL>0 INF !leg]:
 
@@ -144,34 +132,15 @@ ItemDisplay[UNI (aqv OR cqv)]: %NAME%%MAP-53%
 // JEWELRY
 //=================================================
 
-// Magic
-ItemDisplay[MAG rin]: %LIGHT_GRAY%0 %BLUE%%NAME%%CONTINUE%
-ItemDisplay[MAG amu]: %LIGHT_GRAY%0 %BLUE%%NAME%%CONTINUE%
-
-// Rare
-ItemDisplay[RARE rin]: %LIGHT_GRAY%0 %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[RARE amu]: %LIGHT_GRAY%0 %YELLOW%%NAME%%CONTINUE%
-
-// Unique
-ItemDisplay[UNI rin]: %LIGHT_GRAY%0 %GOLD%%NAME%%MAP-53%%CONTINUE%
-ItemDisplay[UNI amu]: %LIGHT_GRAY%0 %GOLD%%NAME%%MAP-53%%CONTINUE%
-
-// Set
-ItemDisplay[SET rin]: %LIGHT_GRAY%0 %GREEN%%NAME%%CONTINUE%
-ItemDisplay[SET amu]: %LIGHT_GRAY%0 %GREEN%%NAME%%CONTINUE%
+// Icons
+ItemDisplay[MAG (rin OR amu)]: %LIGHT_GRAY%0 %BLUE%%NAME%%CONTINUE%
+ItemDisplay[RARE (rin OR amu)]: %LIGHT_GRAY%0 %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[UNI (rin OR amu)]: %LIGHT_GRAY%0 %GOLD%%NAME%%CONTINUE%
+ItemDisplay[SET (rin OR amu)]: %LIGHT_GRAY%0 %GREEN%%NAME%%CONTINUE%
 
 // Crafted
 ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) rin]: %LIGHT_GRAY%0 %ORANGE%%NAME%%CONTINUE%
 ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) amu]: %LIGHT_GRAY%0 %ORANGE%%NAME%%CONTINUE%
-
-// Highlights (also applies to gear)
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES) FCR>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fcr
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BELT) (STAT60>0 OR STAT62>0) ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // leach
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT) RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // all resistances
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT) FRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fire resistance
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT) CRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // cold resistance
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT) LRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // lightning resistance
-ItemDisplay[(MAG OR RARE) (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT) PRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // poison resistance
 
 // Alarms
 ItemDisplay[MAG (rin OR amu)]: %NAME%%MAP-97%%CONTINUE%
@@ -182,58 +151,64 @@ ItemDisplay[UNI (rin OR amu)]: %NAME%%MAP-53%%CONTINUE%
 // CHARMS
 //=================================================
 
+// Colors
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %GOLD% %NAME%%CONTINUE% // unique
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) ILVL>90]: %ORANGE% %NAME%%CONTINUE% // baal
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) ILVL<91]: %BLUE% %NAME%%CONTINUE% // normal
 
-// Highlights
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK0>0 ID]: %ORANGE%:%NAME%%CONTINUE% // amazon
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK0>0 ID]: %ORANGE%:%NAME%%CONTINUE% // amazon bow & xbow
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK1>0 ID]: %ORANGE%:%NAME%%CONTINUE% // amazon passive & magic
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK2>0 ID]: %ORANGE%:%NAME%%CONTINUE% // amazon jav & spear
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK1>0 ID]: %ORANGE%:%NAME%%CONTINUE% // sorceos
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK8>0 ID]: %ORANGE%:%NAME%%CONTINUE% // sorceos fire
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK9>0 ID]: %ORANGE%:%NAME%%CONTINUE% // sorceos lightning
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK10>0 ID]: %ORANGE%:%NAME%%CONTINUE% // sorceos cold
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK2>0 ID]: %ORANGE%:%NAME%%CONTINUE% // necro
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK16>0 ID]: %ORANGE%:%NAME%%CONTINUE% // necro curse
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK17>0 ID]: %ORANGE%:%NAME%%CONTINUE% // necro pnb
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK18>0 ID]: %ORANGE%:%NAME%%CONTINUE% // necro summon
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK3>0 ID]: %ORANGE%:%NAME%%CONTINUE% // paladin
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK24>0 ID]: %ORANGE%:%NAME%%CONTINUE% // paladin combat
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK25>0 ID]: %ORANGE%:%NAME%%CONTINUE% // paladin offensive
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK26>0 ID]: %ORANGE%:%NAME%%CONTINUE% // paladin defensive
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK4>0 ID]: %ORANGE%:%NAME%%CONTINUE% // barbarian
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK32>0 ID]: %ORANGE%:%NAME%%CONTINUE% // barbarian combat
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK33>0 ID]: %ORANGE%:%NAME%%CONTINUE% // barbarian masteries
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK34>0 ID]: %ORANGE%:%NAME%%CONTINUE% // barbarian warcries
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK5>0 ID]: %ORANGE%:%NAME%%CONTINUE% // druid
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK40>0 ID]: %ORANGE%:%NAME%%CONTINUE% // druid summon
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK41>0 ID]: %ORANGE%:%NAME%%CONTINUE% // druid shape shifting
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK42>0 ID]: %ORANGE%:%NAME%%CONTINUE% // druid elemental
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK6>0 ID]: %ORANGE%:%NAME%%CONTINUE% // assassin
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK48>0 ID]: %ORANGE%:%NAME%%CONTINUE% // assassin traps
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK49>0 ID]: %ORANGE%:%NAME%%CONTINUE% // assassin shadow
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK50>0 ID]: %ORANGE%:%NAME%%CONTINUE% // assassin martial arts
-// ---
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) RES>4 ID]: %PURPLE%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm1) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) !RES>0 ID]: %PURPLE%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm2) (FRES>9 OR CRES>9 OR LRES>9 OR PRES>9) !RES>0 ID]: %PURPLE%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm3) (FRES>19 OR CRES>19 OR LRES>19 OR PRES>19) !RES>0 ID]: %PURPLE%:%NAME%%CONTINUE%
-// ---
-ItemDisplay[MAG (cm1) (STR>1 OR DEX>1) ID]: %GOLD%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm2) (STR>2 OR DEX>2) ID]: %GOLD%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm3) (STR>5 OR DEX>5) ID]: %GOLD%:%NAME%%CONTINUE%
-// ---
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) MAXDMG>0 AR>0 ID]: %CORAL%:%NAME%%CONTINUE%
-// ---
-ItemDisplay[MAG (cm1) (FHR>1 OR FRW>1) ID]: %TEAL%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm2) (FHR>2 OR FRW>2) ID]: %TEAL%:%NAME%%CONTINUE%
-ItemDisplay[MAG (cm3) (FHR>5 OR FRW>5) ID]: %TEAL%:%NAME%%CONTINUE%
-// ---
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) FCR>0 ID]: %SAGE%:%NAME%%CONTINUE% // fcr
-// ---
-ItemDisplay[MAG (cm1 OR cm2 OR cm3) MFIND>0 ID]: %DARK_GREEN%:%NAME%%CONTINUE% // magic find
+// Skillers
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK0>0 ID]: %ORANGE%;%NAME%%CONTINUE% // amazon
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK0>0 ID]: %ORANGE%;%NAME%%CONTINUE% // amazon bow & xbow
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK1>0 ID]: %ORANGE%;%NAME%%CONTINUE% // amazon passive & magic
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK2>0 ID]: %ORANGE%;%NAME%%CONTINUE% // amazon jav & spear
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK1>0 ID]: %ORANGE%;%NAME%%CONTINUE% // sorc
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK8>0 ID]: %ORANGE%;%NAME%%CONTINUE% // sorc fire
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK9>0 ID]: %ORANGE%;%NAME%%CONTINUE% // sorc lightning
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK10>0 ID]: %ORANGE%;%NAME%%CONTINUE% // sorc cold
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK2>0 ID]: %ORANGE%;%NAME%%CONTINUE% // necro
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK16>0 ID]: %ORANGE%;%NAME%%CONTINUE% // necro curse
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK17>0 ID]: %ORANGE%;%NAME%%CONTINUE% // necro pnb
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK18>0 ID]: %ORANGE%;%NAME%%CONTINUE% // necro summon
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK3>0 ID]: %ORANGE%;%NAME%%CONTINUE% // paladin
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK24>0 ID]: %ORANGE%;%NAME%%CONTINUE% // paladin combat
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK25>0 ID]: %ORANGE%;%NAME%%CONTINUE% // paladin offensive
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK26>0 ID]: %ORANGE%;%NAME%%CONTINUE% // paladin defensive
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK4>0 ID]: %ORANGE%;%NAME%%CONTINUE% // barbarian
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK32>0 ID]: %ORANGE%;%NAME%%CONTINUE% // barbarian combat
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK33>0 ID]: %ORANGE%;%NAME%%CONTINUE% // barbarian masteries
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK34>0 ID]: %ORANGE%;%NAME%%CONTINUE% // barbarian warcries
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK5>0 ID]: %ORANGE%;%NAME%%CONTINUE% // druid
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK40>0 ID]: %ORANGE%;%NAME%%CONTINUE% // druid summon
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK41>0 ID]: %ORANGE%;%NAME%%CONTINUE% // druid shape shifting
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK42>0 ID]: %ORANGE%;%NAME%%CONTINUE% // druid elemental
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) CLSK6>0 ID]: %ORANGE%;%NAME%%CONTINUE% // assassin
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK48>0 ID]: %ORANGE%;%NAME%%CONTINUE% // assassin traps
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK49>0 ID]: %ORANGE%;%NAME%%CONTINUE% // assassin shadow
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) TABSK50>0 ID]: %ORANGE%;%NAME%%CONTINUE% // assassin martial arts
+
+// Resistance
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) RES>4 ID]: %PURPLE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm1) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) !RES>0 ID]: %PURPLE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm2) (FRES>9 OR CRES>9 OR LRES>9 OR PRES>9) !RES>0 ID]: %PURPLE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm3) (FRES>19 OR CRES>19 OR LRES>19 OR PRES>19) !RES>0 ID]: %PURPLE%;%NAME%%CONTINUE%
+
+// Stats
+ItemDisplay[MAG (cm1) (STR>1 OR DEX>1) ID]: %TAN%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm2) (STR>2 OR DEX>2) ID]: %TAN%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm3) (STR>5 OR DEX>5) ID]: %TAN%;%NAME%%CONTINUE%
+
+// Attack
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) MAXDMG>0 AR>0 ID]: %CORAL%;%NAME%%CONTINUE%
+
+// Speed
+ItemDisplay[MAG (cm1) (FHR>1 OR FRW>1) ID]: %SAGE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm2) (FHR>2 OR FRW>2) ID]: %SAGE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm3) (FHR>5 OR FRW>5) ID]: %SAGE%;%NAME%%CONTINUE%
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) FCR>0 ID]: %SAGE%;%NAME%%CONTINUE% // fcr
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) IAS>0 ID]: %SAGE%;%NAME%%CONTINUE% // fcr
+
+// Magic Find
+ItemDisplay[MAG (cm1 OR cm2 OR cm3) MFIND>0 ID]: %DARK_GREEN%;%NAME%%CONTINUE% // magic find
 
 // Rename
 ItemDisplay[cm1]: %LIGHT_GRAY%o%BLUE%%NAME%%CONTINUE%
@@ -243,6 +218,37 @@ ItemDisplay[cm3]: %LIGHT_GRAY%ooo%BLUE%%NAME%%CONTINUE%
 // Alarms
 ItemDisplay[MAG (cm1 OR cm2 OR cm3)]: %NAME%%MAP-97%%CONTINUE%
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NAME%%MAP-53%%CONTINUE%
+
+//=================================================
+// GOOD ITEMS
+//=================================================
+
+// Highlights
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) STAT62>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // mana leach
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) STAT60>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // life leach
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) FRW>9 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fast run speed
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) IAS>9 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fast attack speed
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) FCR>9 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fast cast rate
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) FHR>9 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fast hit recovery
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // all resistances
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) FRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fire resistance
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) CRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // cold resistance
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) LRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // lightning resistance
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) PRES>19 !RES>0 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // poison resistance
+ItemDisplay[(MAG OR RARE) !(cm1 OR cm2 OR cm3) MFIND>19 ID]: %LIGHT_GRAY%+%NAME%%CONTINUE% // magic find
+
+// Trophy Items
+//ItemDisplay[(MAG OR RARE) CIRC (FCR>19 OR FRW>19) ID]: %NAME%%MAP-97%%CONTINUE% // fcr or frw
+//ItemDisplay[MAG (CIRC OR amu) (STAT34>9 OR STAT35>9) ID]: %NAME%%MAP-97%%CONTINUE% // life everlasting
+//ItemDisplay[MAG (POLEARM OR JAV OR SPEAR OR MACE) TABSK33>2 ID]: %NAME%%MAP-97%%CONTINUE% // BO sticks
+//ItemDisplay[MAG uit FBR>29 ID]: %NAME%%MAP-97%%CONTINUE% // jewlers monarch
+//ItemDisplay[(MAG OR RARE) GLOVES IAS>19 ID]: %NAME%%MAP-97%%CONTINUE% // amazon gloves
+
+// Alarms
+ItemDisplay[RARE (rin OR amu OR HELM OR CIRC OR ARMOR OR GLOVES OR BOOTS OR BELT)]: %NAME%%MAP-6D% // rares
+ItemDisplay[UNI]: %NAME%%MAP-53%%CONTINUE% // uniques
+ItemDisplay[SET]: %NAME%%MAP-84%%CONTINUE% // sets
+ItemDisplay[NMAG ELT CHEST ETH]: %NAME%%MAP-20%%CONTINUE% // elite merc armors
 
 //=================================================
 // RUNES
@@ -295,7 +301,7 @@ ItemDisplay[GEMTYPE=7]: %LIGHT_GRAY%o %WHITE%Skull%CONTINUE%
 ItemDisplay[GEMTYPE>0]: %NAME%%GRAY% %GEMLEVEL%
 
 // Alarms
-//ItemDisplay[GEMTYPE>0]: %NAME%%MAP-20%
+ItemDisplay[GEMLEVEL>3]: %NAME%%MAP-20%
 
 //=================================================
 // POTIONS
