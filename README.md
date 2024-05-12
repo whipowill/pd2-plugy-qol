@@ -2,13 +2,17 @@
 
 The best way to play the game.
 
-This repo includes my files for playing the game using PlugY w/ some minor game tweaks.
+This repo includes my files for playing the game using PlugY w/ some minor game tweaks.  I moved Deckard Cain in Act 5 to stand by the stash and I modded ``TreasureClassEx.txt`` to make Countess drop better runes.
 
-## Mods
+## Performance
 
-- Moved Deckard Cain in Act 5
+Edit ``d2gl.json`` to use D2FPS:
 
-This repo includes a mods [folder](https://github.com/whipowill/pd2-plugy-qol/tree/master/Mods) w/ some optional TXT file changes sorted by season.  These changes usually involve minor tweaks, such as Countess always droping 3 runes and Cube enabling rune downgrades.  You would have to copy/paste these files into ``data/global/excel/`` to use them.
+```
+"load_dlls_early": "d2fps.dll:stdcall:_Init@0",
+```
+
+## Notes
 
 To my knowledge, there are no DLL mods that work other than PlugY.  This sadly excludes the legendary [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492).  Some additional notes:
 
@@ -16,12 +20,6 @@ To my knowledge, there are no DLL mods that work other than PlugY.  This sadly e
 - In PlugY, the ``EnabledTXTFilesWhenMSExcelOpenIt`` option doesn't seem to work
 
 See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page to read more.
-
-## Loot Filter
-
-This repo includes my custom loot filter ported over from [SlashDiablo](https://slashdiablo.net/).
-
-See the PD2 wiki loot filter [rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) page to read more.
 
 ## External Links
 
@@ -31,3 +29,6 @@ See the PD2 wiki loot filter [rules](https://projectdiablo2.miraheze.org/wiki/It
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - custom PlugY files
 - [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - for editing game TXT files
 - [MPQEditor](http://www.zezula.net/en/mpq/download.html) - for extracting game TXT files
+- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver (check for updates)
+- [D2FPS](https://github.com/Jarcho/d2-rs/releases) - motion prediction driver (check for updates)
+- [Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
