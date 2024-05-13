@@ -4,13 +4,21 @@ The best way to play the game.
 
 This repo includes my files for playing the game using PlugY w/ some minor game tweaks.  I moved Deckard Cain in Act 5 to stand by the stash and I modded ``TreasureClassEx.txt`` to make Countess drop better runes.
 
-## Performance
+## Install
 
-Edit ``d2gl.json`` to use D2FPS:
+Copy and paste these files into your PD2 directory, then run ``PlugY.exe`` with ``-3dfx -direct -txt`` arguments.
+
+The shared stash might be buggy on a fresh start, but throw a scroll in there and relog and it will fix itself.
+
+## Video
+
+Edit ``d2gl.json`` to use D2FPS.  This is the best performance I've gotten on my machine.
 
 ```
 "load_dlls_early": "d2fps.dll:stdcall:_Init@0",
 ```
+
+Note that this added DLL will cause PD2 to block you from playing online.
 
 ## Notes
 
@@ -29,6 +37,6 @@ See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page to r
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - custom PlugY files
 - [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - for editing game TXT files
 - [MPQEditor](http://www.zezula.net/en/mpq/download.html) - for extracting game TXT files
-- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver (check for updates)
-- [D2FPS](https://github.com/Jarcho/d2-rs/releases) - motion prediction driver (check for updates)
+- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver
+- [D2FPS](https://github.com/Jarcho/d2-rs/releases) - motion prediction driver
 - [Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
