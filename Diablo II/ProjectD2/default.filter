@@ -124,7 +124,7 @@ ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT22>19]: %LIGHT_GRAY%+%NAME%%CONTINUE%
 ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT218>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // maxdmg by lvl
 
 // Alarms
-ItemDisplay[MAG (aqv OR cqv)]: %NAME%%MAP-97%
+//ItemDisplay[MAG (aqv OR cqv)]: %NAME%%MAP-97%
 ItemDisplay[RARE (aqv OR cqv)]: %NAME%%MAP-6D%
 ItemDisplay[UNI (aqv OR cqv)]: %NAME%%MAP-53%
 
