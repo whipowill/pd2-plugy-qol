@@ -1,8 +1,8 @@
 # Project Diablo 2
 
-The best way to play the game.
+![PD2 PlugY QOL Mod Pack](https://i.imgur.com/JgWjLrw.jpeg)
 
-This repo includes my files for playing the game using PlugY w/ some minor game tweaks.
+This repo includes my files for playing the PD2 using PlugY w/ some minor game tweaks.
 
 ## Install
 
