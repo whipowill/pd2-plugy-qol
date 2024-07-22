@@ -1,13 +1,13 @@
 {
     "screen": {
-        "window_size_width": 3840,
-        "window_size_height": 2160,
+        "window_size_width": 1920,
+        "window_size_height": 1080,
         "window_centered": true,
         "window_position_x": 0,
         "window_position_y": 0,
         "unlock_cursor": true,
         "window_fullscreen": true,
-        "window_vsync": true,
+        "window_vsync": false,
         "foreground_fps_active": false,
         "foreground_fps_value": 60,
         "background_fps_active": false,
@@ -16,7 +16,7 @@
         "window_dark_mode": true
     },
     "graphics": {
-        "shader_preset": "scanlines\\scanline.slangp",
+        "shader_preset": "xbr\\other\\4xbr-hybrid-crt.slangp",
         "sharpen": false,
         "sharpen_strength": 1.2000000476837158,
         "sharpen_clamp": 0.800000011920929,

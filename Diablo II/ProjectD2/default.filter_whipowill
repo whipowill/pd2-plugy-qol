@@ -254,10 +254,53 @@ ItemDisplay[NMAG ELT CHEST ETH]: %NAME%%MAP-20%%CONTINUE% // elite merc armors
 // RUNES
 //=================================================
 
-// Rename
-ItemDisplay[RUNE<20]: %LIGHT_GRAY%o %ORANGE%%RUNENAME%%GRAY% %RUNENUM%%CONTINUE%
-ItemDisplay[RUNE>19 RUNE<26]: %LIGHT_GRAY%oo %RED%%RUNENAME%%GRAY% %RUNENUM%%CONTINUE%
-ItemDisplay[RUNE>25]: %LIGHT_GRAY%ooo %PURPLE%%RUNENAME%%GRAY% %RUNENUM%%CONTINUE%
+// Rankings:
+// Low Runes 1-14 (14)
+// Mid Runes 15-25 (11)
+// High Runes 26-33 (8)
+
+// Icons
+ItemDisplay[RUNE<15]: %LIGHT_GRAY%o %CONTINUE%
+ItemDisplay[RUNE>14 RUNE<25]: %LIGHT_GRAY%oo %CONTINUE%
+ItemDisplay[RUNE>24]: %LIGHT_GRAY%ooo %CONTINUE%
+
+// Names (color change doesn't work en masse)
+ItemDisplay[RUNE=1]: %NAME%%ORANGE%El%CONTINUE%
+ItemDisplay[RUNE=2]: %NAME%%ORANGE%Eld%CONTINUE%
+ItemDisplay[RUNE=3]: %NAME%%ORANGE%Tir%CONTINUE%
+ItemDisplay[RUNE=4]: %NAME%%ORANGE%Nef%CONTINUE%
+ItemDisplay[RUNE=5]: %NAME%%ORANGE%Eth%CONTINUE%
+ItemDisplay[RUNE=6]: %NAME%%ORANGE%Ith%CONTINUE%
+ItemDisplay[RUNE=7]: %NAME%%ORANGE%Tal%CONTINUE%
+ItemDisplay[RUNE=8]: %NAME%%ORANGE%Ral%CONTINUE%
+ItemDisplay[RUNE=9]: %NAME%%ORANGE%Ort%CONTINUE%
+ItemDisplay[RUNE=10]: %NAME%%ORANGE%Thul%CONTINUE%
+ItemDisplay[RUNE=11]: %NAME%%ORANGE%Amn%CONTINUE%
+ItemDisplay[RUNE=12]: %NAME%%ORANGE%Sol%CONTINUE%
+ItemDisplay[RUNE=13]: %NAME%%ORANGE%Shael%CONTINUE%
+ItemDisplay[RUNE=14]: %NAME%%ORANGE%Dol%CONTINUE%
+ItemDisplay[RUNE=15]: %NAME%%RED%Hel%CONTINUE%
+ItemDisplay[RUNE=16]: %NAME%%RED%Io%CONTINUE%
+ItemDisplay[RUNE=17]: %NAME%%RED%Lum%CONTINUE%
+ItemDisplay[RUNE=18]: %NAME%%RED%Ko%CONTINUE%
+ItemDisplay[RUNE=19]: %NAME%%RED%Fal%CONTINUE%
+ItemDisplay[RUNE=20]: %NAME%%RED%Lem%CONTINUE%
+ItemDisplay[RUNE=21]: %NAME%%RED%Pul%CONTINUE%
+ItemDisplay[RUNE=22]: %NAME%%RED%Um%CONTINUE%
+ItemDisplay[RUNE=23]: %NAME%%RED%Mal%CONTINUE%
+ItemDisplay[RUNE=24]: %NAME%%RED%Ist%CONTINUE%
+ItemDisplay[RUNE=25]: %NAME%%RED%Gul%CONTINUE%
+ItemDisplay[RUNE=26]: %NAME%%PURPLE%Vex%CONTINUE%
+ItemDisplay[RUNE=27]: %NAME%%PURPLE%Ohm%CONTINUE%
+ItemDisplay[RUNE=28]: %NAME%%PURPLE%Lo%CONTINUE%
+ItemDisplay[RUNE=29]: %NAME%%PURPLE%Sur%CONTINUE%
+ItemDisplay[RUNE=30]: %NAME%%PURPLE%Ber%CONTINUE%
+ItemDisplay[RUNE=31]: %NAME%%PURPLE%Jah%CONTINUE%
+ItemDisplay[RUNE=32]: %NAME%%PURPLE%Cham%CONTINUE%
+ItemDisplay[RUNE=33]: %NAME%%PURPLE%Zod%CONTINUE%
+
+// Numbers
+ItemDisplay[RUNE>0]: %NAME%%GRAY% %RUNENUM%%CONTINUE%
 
 // Alarms
 ItemDisplay[RUNE<20]: %NAME%%MAP-0B%
@@ -434,7 +477,7 @@ ItemDisplay[scrb]: %LIGHT_GRAY%m %RED%%NAME%%MAP-62%
 ItemDisplay[iwss]: %LIGHT_GRAY%m %RED%%NAME%%MAP-62%
 
 // General
-ItemDisplay[wss]: %LIGHT_GRAY%+ %PURPLE%%NAME%%MAP-9B%
+ItemDisplay[wss]: %LIGHT_GRAY%+ %PURPLE%Shard%MAP-9B%
 ItemDisplay[lbox]: %LIGHT_GRAY%+ %PURPLE%%NAME%%MAP-9B%
 ItemDisplay[lpp]: %LIGHT_GRAY%+ %PURPLE%%NAME%%MAP-9B%
 ItemDisplay[lmal]: %LIGHT_GRAY%+ %PURPLE%%NAME%%MAP-9B%

@@ -2,41 +2,67 @@
 
 The best way to play the game.
 
-This repo includes my files for playing the game using PlugY w/ some minor game tweaks.  I moved Deckard Cain in Act 5 to stand by the stash and I modded ``TreasureClassEx.txt`` to make Countess drop better runes.
+This repo includes my files for playing the game using PlugY w/ some minor game tweaks.
 
 ## Install
 
-Copy and paste these files into your PD2 directory, then run ``PlugY.exe`` with ``-3dfx -direct -txt`` arguments.
+Copy and paste these files into your PD2 directory, then run ``PlugY.exe`` w/ ``-3dfx -direct -txt`` arguments.
 
-The shared stash might be buggy on a fresh start, but throw a scroll in there and relog and it will fix itself.
+### Helpful Links
+
+- [ProjectD2](https://www.projectdiablo2.com/) - official website
+- [Wikipedia](https://projectdiablo2.miraheze.org/wiki) - official wiki
+- [Runewizard](https://kvothed2.github.io/pd2-runewizard/) - handy runeword helper
+
+## Modifications
+
+Changes I've made:
+
+- Moved Deckard Cain in Act 5 to stand by stash
+- Changed/silenced some irritating character sounds
+- Modded rune drops to be less punishing
+
+The rune drop mod has to be copy and pasted from the mods folder from the appropriate season into ``data/global/excel/``.
+
+Some notes about PlugY:
+
+- You must have shared gold disabled as it conflicts w/ PD2
+- The ``EnabledTXTFilesWhenMSExcelOpenIt`` option doesn't seem to work
+
+See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page a list of all the known bugs.
+
+### Helpful Links
+
+- [MPQEditor](http://www.zezula.net/en/mpq/download.html) - for extracting game TXT files
+- [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - for editing game TXT files
 
 ## Video
 
-Edit ``d2gl.json`` to use D2FPS.  This is the best performance I've gotten on my machine.
+Some notes about video settings.  I instructed ``d2gl.json`` to use the extra library D2FPS for best performance.  This is an optional upgrade included in D2GL.
 
 ```
 "load_dlls_early": "d2fps.dll:stdcall:_Init@0",
 ```
 
-Note that this added DLL will cause PD2 to block you from playing online.
+Note that this added DLL will cause PD2 to block you from playing online. Final note is the best video filter by far is ``4xbr-hybrid-crt``.
 
-## Notes
+### Helpful Links
 
-To my knowledge, there are no DLL mods that work other than PlugY.  This sadly excludes the legendary [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492).  Some additional notes:
-
-- In PlugY, you must have shared gold disabled as it conflicts with PD2
-- In PlugY, the ``EnabledTXTFilesWhenMSExcelOpenIt`` option doesn't seem to work
-
-See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page to read more.
-
-## External Links
-
-- [ProjectD2](https://www.projectdiablo2.com/) - official website
-- [Wikipedia](https://projectdiablo2.miraheze.org/wiki) - official wiki
-- [Runewizard](https://kvothed2.github.io/pd2-runewizard/) - handy runeword helper
-- [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - custom PlugY files
-- [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - for editing game TXT files
-- [MPQEditor](http://www.zezula.net/en/mpq/download.html) - for extracting game TXT files
-- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver
+- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver (check for updates)
 - [D2FPS](https://github.com/Jarcho/d2-rs/releases) - motion prediction driver
-- [Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
+
+## Keyboard Macros
+
+This game is very clicky and you can quickly develop carpal tunnel syndrome.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
+
+## Loot Filter
+
+Included in this repo is my custom loot filter.  It's a port from my vanilla D2 days w/ some tweaks to make it work for PD2.
+
+### Helpful Links
+
+- [Filter Rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
+
+## Credits
+
+Thanks to [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) for the initial PlugY files I used in this repo.
