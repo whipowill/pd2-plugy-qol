@@ -38,30 +38,45 @@ See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page a li
 
 ## Video
 
-Some notes about video settings.  I instructed ``d2gl.json`` to use the extra library D2FPS for best performance.  This is an optional upgrade included in D2GL.
+Some notes about video settings.
 
-```
-"load_dlls_early": "d2fps.dll:stdcall:_Init@0",
-```
+I instructed PlugY to load ``d2gl.json``which is an extra library that works even better at motion prediction.  It requires that your D2GL have motion prediction turned off or it won't work right.
 
-Note that this added DLL will cause PD2 to block you from playing online. Final note is the best video filter by far is ``4xbr-hybrid-crt``.
+I run this extra DLL thru PlugY instead of thru D2GL bc a) it works better that way (flawless), and b) you can still load normal PD2 to play online bc this extra DLL would cause PD2 to kick you.
+
+Final note is the best video filter by far is ``4xbr-hybrid-crt``.
 
 ### Helpful Links
 
-- [D2GL](https://github.com/bayaraa/d2gl/releases/) - graphics driver (check for updates)
-- [D2FPS](https://github.com/Jarcho/d2-rs/releases) - motion prediction driver
+- [D2GL](https://github.com/bayaraa/d2gl/releases/) - PD2 integrated graphics driver
+- [D2FPS](https://github.com/Jarcho/d2-rs/releases) - extra DLL for superior motion prediction
 
-## Keyboard Macros
+## Keyboard
 
 This game is very clicky and you can quickly develop carpal tunnel syndrome.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
 
+Additional Tips:
+
+- Bind ``+`` and ``-`` adjust loot filter level
+- Bind ``CAPLOCK`` to always show loot
+
 ## Loot Filter
 
-Included in this repo is my custom loot filter.  It's a port from my vanilla D2 days w/ some tweaks to make it work for PD2.
+Included in this repo is my custom loot filter.  It's a port from my vanilla D2 days that I've been working to make suitable for PD2.
+
+Filter Levels:
+
+- Hide Junk
+- Hide Junk, Magic
+- Hide Junk, Magic, Rare
+- Hide Junk, Magic, Rare, Non-Tier
+
+You can read the ``default.filter`` file to see more information about how it's designed.
 
 ### Helpful Links
 
 - [Filter Rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
+- [PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
 
 ## Credits
 
