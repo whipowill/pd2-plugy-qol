@@ -63,8 +63,9 @@ Features:
 - Maps show difficulty level
 - Base items list all runewords possible
 - Weapons and armor show upgrade recipies
-- Special items show combination recipies
-- Stackable items show socket effects
+- Special reagents show combination recipies
+- Stackable gems show socket effects
+- Computer generated tier preferences ([Will Scarlet's Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder))
 
 | Image 1 | Image 2 | Image 3 |
 |:-------:|:-------:|:-------:|
@@ -72,17 +73,17 @@ Features:
 
 Levels:
 
-- Filter L1 - ``Hide Junk``
+- #1 - ``Hide Junk``
 	- Hide low level potions
 	- Hide gold (but you still pick up)
 	- Hide non-necessary white items like keys and quivers
 	- Hide non-usable white items like gloves, belts, and boots as well as inferior items
 	- Hide non-ideal white items for runewords (this is subjective!)
-- Filter L2 - ``Hide Junk, Magic``
+- #2 - ``Hide Junk, Magic``
 	- Hide magic items except rings, amulets, charms, and elite craftable gloves, belts, and boots
-- Filter L3 - ``Hide Junk, Magic, Rare``
+- #3 - ``Hide Junk, Magic, Rare``
 	- Hide rare items except rings, amulets, quivers, gloves, belts, and boots
-- Filter L4 - ``Hide Junk, Magic, Rare, Non-Tier``
+- #4 - ``Hide Junk, Magic, Rare, Non-Tier``
 	- Hide non-elite white items
 	- Non-tier set and unique drops no longer print in the chat
 
