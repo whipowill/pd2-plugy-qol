@@ -87,11 +87,9 @@ Levels:
 - #3 - ``Hide Junk, Magic, Rare``
 	- Hide rare armors/weapons except circlets, gloves, belts, and boots
 - #4 - ``Hide Junk, Magic, Rare, Non-Tier``
-	- Hide non-elite armors/weapons for runewords
+	- Hide non-elite base armors/weapons for runewords
 	- Only tier 1-5 gear drops will print in the chat
 	- Only mid and high rune drops will print in the chat
-
-All set, unique, and tier drops will print in the chat as an alert.  Once you get to filter level 4 those items will still show on the ground, but only tier 1-5 drops will print in the chat as an alert.
 
 You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.  You can also search ``hide`` to find misc codes.
 
