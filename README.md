@@ -1,6 +1,7 @@
 # Project Diablo 2
 
-![PD2 PlugY QOL Mod Pack](https://i.imgur.com/Kxy59Gf.jpeg)
+![whipowill's PD2 Loot Filter](https://i.imgur.com/Kxy59Gf.jpeg)
+![whipowill's PD2 Loot Filter 2](https://i.imgur.com/0XPyGuz.jpeg)
 
 This repo includes my files for playing PD2 w/ PlugY and some minor game tweaks.
 
