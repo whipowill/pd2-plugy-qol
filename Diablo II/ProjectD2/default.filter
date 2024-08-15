@@ -169,13 +169,13 @@ ItemDisplay[NORM]: %LIGHT_GRAY%0| %NAME%%CONTINUE%
 ItemDisplay[EXC]: %LIGHT_GRAY%0|%RED%| %NAME%%CONTINUE%
 ItemDisplay[ELT]: %LIGHT_GRAY%0|%RED%|%PURPLE%| %NAME%%CONTINUE%
 
-// Ignore inferior items (except Wirt's leg)
+// Hide inferior items (except Wirt's leg)
 ItemDisplay[FILTLVL>0 INF !leg]:
 
-// Ignore 1os white items (except Wirt's leg)
+// Hide 1os white items (except Wirt's leg)
 ItemDisplay[FILTLVL>0 NMAG !leg !RW SOCK=1]:
 
-// Ignore unusable white items (gloves, boots, belts)
+// Hide unusable white items (gloves, boots, belts)
 ItemDisplay[FILTLVL>0 NMAG !(leg) (EQ4 OR EQ5 OR EQ6)]:
 
 // Set numbers for organization purposes
@@ -243,14 +243,14 @@ ItemDisplay[RARE cqv !ID]: %LIGHT_GRAY%0 %YELLOW%Quiver %GRAY%Bolts%CONTINUE%
 //ItemDisplay[aqv OR cqv]: %NAME% %GRAY%Quiver%CONTINUE%
 
 // Highlights
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) CLSK0>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // amazon skill
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) TABSK0>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // bow skill
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT93>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // faster attack speed
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT48>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fire
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT51>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // lightning
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT54>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // cold
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT22>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // maxdmg
-ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT218>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // maxdmg by lvl
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) CLSK0>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // amazon skill
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) TABSK0>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // bow skill
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT93>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // faster attack speed
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT48>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // fire
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT51>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // lightning
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT54>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // cold
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT22>19]: %LIGHT_GRAY%+%NAME%%CONTINUE% // maxdmg
+//ItemDisplay[(MAG OR RARE) (aqv OR cqv) STAT218>0]: %LIGHT_GRAY%+%NAME%%CONTINUE% // maxdmg by lvl
 
 // Alarms
 //ItemDisplay[MAG (aqv OR cqv) FILTLVL<2]: %NAME%%DOT-94%%CONTINUE%
@@ -1430,8 +1430,11 @@ ItemDisplay[!INF NMAG 7wa SOCK=0]: %NAME%{%NAME%}%DOT-1F%
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=2)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)]: %NAME%{%NAME%}%DOT-1F%
-ItemDisplay[!INF NMAG ELT ETH CHEST]: %RED%T3 %WHITE%%NAME%{%NAME%}
-ItemDisplay[!INF NMAG ELT ETH CHEST]: %NAME%{%NAME%}%DOT-1F%
+ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=0)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ucl OR ult OR uul)]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ucl OR ult OR uul)]: %NAME%{%NAME%}%DOT-1F%
+ItemDisplay[!INF NMAG ELT ETH CHEST (ung OR uhn OR upl OR uld OR uth OR uar)]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ung OR uhn OR upl OR uld OR uth OR uar)]: %NAME%{%NAME%}%DOT-1F%
 ItemDisplay[!INF NMAG EXC ETH CHEST]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %NAME%{%NAME%}%DOT-1F%
@@ -1448,7 +1451,14 @@ ItemDisplay[!INF NMAG EXC DIN RES>19]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 // HIDE FILTERS
 //=================================================
 
-ItemDisplay[FILTLVL>2 NMAG !RW (ARMOR OR WEAPON OR aqv OR cqv) !ELT]: // hide all non-tier stuff that isn't elite
-ItemDisplay[FILTLVL>0 NMAG !RW (ARMOR OR WEAPON OR aqv OR cqv) !(ETH ARMOR) !(CIRC OR CLASS) !(kit OR xit OR uit) !(scy OR pax OR hal OR 9s8 OR 9pa OR 9h9 OR 7s8 OR 7pa OR 7h7) !(gsd OR flb OR 9gd OR 9fb OR 7gd OR 7fb) !(utu OR utp OR uui OR xtu OR xtp OR xrs OR stu OR ltp OR brs)]: // never hide circlets or class items, light armors, kite shields, threshers, 2h swords
-ItemDisplay[FILTLVL>1 MAG (ARMOR OR WEAPON OR aqv OR cqv) !(ELT (GLOVES OR BOOTS OR BELT))]:
-ItemDisplay[FILTLVL>2 RARE (ARMOR OR WEAPON) !(CIRC OR GLOVES OR BOOTS OR BELT)]: // never hide good rare slots
+// if lvl 1+ - hide all white armors/weapons that are not circlets, class items, light armors, good shields, good polearms, good swords
+ItemDisplay[FILTLVL>0 NMAG !RW (ARMOR OR WEAPON) !(ETH ARMOR) !(CIRC OR CLASS) !(kit OR xit OR uit) !(scy OR pax OR hal OR 9s8 OR 9pa OR 9h9 OR 7s8 OR 7pa OR 7h7) !(gsd OR flb OR 9gd OR 9fb OR 7gd OR 7fb) !(utu OR utp OR uui OR xtu OR xtp OR xrs OR stu OR ltp OR brs)]:
+
+// if lvl 2+ - hide all magic armors/weapons that are not elite gloves, boots, or belts
+ItemDisplay[FILTLVL>1 MAG (ARMOR OR WEAPON) !(ELT (GLOVES OR BOOTS OR BELT))]:
+
+// if lvl 3+ - hide all rare armor/weapons that are not circlets, gloves, boots, or belts
+ItemDisplay[FILTLVL>2 RARE (ARMOR OR WEAPON) !(CIRC OR GLOVES OR BOOTS OR BELT)]:
+
+// if lvl 4 - hide all white armor/weapons that are not elite (the tier codes above don't CONTINUE, so this never triggers)
+ItemDisplay[FILTLVL>2 NMAG !RW (ARMOR OR WEAPON) !ELT]:

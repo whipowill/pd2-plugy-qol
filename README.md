@@ -77,18 +77,23 @@ Levels:
 - #1 - ``Hide Junk``
 	- Hide low level potions
 	- Hide gold (but you still pick up)
-	- Hide non-necessary base items like keys and quivers
-	- Hide non-usable base items like gloves, belts, and boots as well as inferior items
-	- Hide non-ideal base items for runewords (this is subjective!)
+	- Hide non-necessary items like keys and quivers
+	- Hide non-usable base armors/weapons for runewords like gloves, belts, and boots
+	- Hide non-usable base armors/weapons for runewords like ``SOCK=1`` and ``INF``
+	- Hide non-ideal base armors/weapons for runewords (this is subjective!)
+		- Basically showing light armors, eth armors, class items, and good helms, shields, polearms, and swords
 - #2 - ``Hide Junk, Magic``
-	- Hide magic items except rings, amulets, charms, jewels, and elite craftable gloves, belts, and boots
+	- Hide magic armors/weapons except elite craftable gloves, belts, and boots
 - #3 - ``Hide Junk, Magic, Rare``
-	- Hide rare items except rings, amulets, quivers, circlets, gloves, belts, and boots
+	- Hide rare armors/weapons except circlets, gloves, belts, and boots
 - #4 - ``Hide Junk, Magic, Rare, Non-Tier``
-	- Hide non-elite base items
-	- Only tier 5+ gear drops will print in the chat
+	- Hide non-elite armors/weapons for runewords
+	- Only tier 1-5 gear drops will print in the chat
+	- Only mid and high rune drops will print in the chat
 
-You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
+All set, unique, and tier drops will print in the chat as an alert.  Once you get to filter level 4 those items will still show on the ground, but only tier 1-5 drops will print in the chat as an alert.
+
+You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.  You can also search ``hide`` to find misc codes.
 
 ## Credits
 
