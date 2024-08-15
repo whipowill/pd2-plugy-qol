@@ -80,9 +80,9 @@ Levels:
 	- Hide non-usable white items like gloves, belts, and boots as well as inferior items
 	- Hide non-ideal white items for runewords (this is subjective!)
 - #2 - ``Hide Junk, Magic``
-	- Hide magic items except rings, amulets, charms, and elite craftable gloves, belts, and boots
+	- Hide magic items except rings, amulets, charms, jewels, and elite craftable gloves, belts, and boots
 - #3 - ``Hide Junk, Magic, Rare``
-	- Hide rare items except rings, amulets, quivers, gloves, belts, and boots
+	- Hide rare items except rings, amulets, quivers, circlets, gloves, belts, and boots
 - #4 - ``Hide Junk, Magic, Rare, Non-Tier``
 	- Hide non-elite white items
 	- Non-tier set and unique drops no longer print in the chat
