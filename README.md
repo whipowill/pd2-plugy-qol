@@ -1,6 +1,6 @@
 # Project Diablo 2
 
-![PD2 PlugY QOL Mod Pack](https://i.imgur.com/JgWjLrw.jpeg)
+![PD2 PlugY QOL Mod Pack](https://i.imgur.com/Kxy59Gf.jpeg)
 
 This repo includes my files for playing PD2 w/ PlugY and some minor game tweaks.
 
@@ -73,7 +73,7 @@ The loot filter will always:
 - Show set and unique items, and print to the chat (except at level 4)
 - Show tier 5+ base items
 
-You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions at at the very bottom of the file.
+You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
 
 ## Credits
 
