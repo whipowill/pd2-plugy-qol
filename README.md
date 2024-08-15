@@ -1,8 +1,8 @@
 # Project Diablo 2
 
-![whipowill's PD2 Loot Filter](https://i.imgur.com/Kxy59Gf.jpeg)
-
 This repo includes my files for playing PD2 w/ PlugY and some minor game tweaks.
+
+![whipowill's PD2 Loot Filter](https://i.imgur.com/Kxy59Gf.jpeg)
 
 ## Install
 
