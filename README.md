@@ -57,10 +57,11 @@ Features:
 - No information overload
 - Icon system shows gear quality
 - Armors show weight
+- Charms show item level (for re-rolling)
 - Rings and amulets show item level (for crafting)
 - Runes show rune number (for organization)
 - Sets show set number (for organization)
-- Maps show difficulty level
+- Maps show difficulty level and standardize appearance
 - Set and unique armor/weapons show upgrade recipies
 - All armor/weapons show maximum sockets
 - Special reagents show combination recipies
