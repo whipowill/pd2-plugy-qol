@@ -51,27 +51,29 @@ Filter Levels:
 
 - Filter Level 1 - ``Hide Junk``
 	- Hide low level potions
-	- Hide gold (but you still pick it up)
-	- Hide unusable white items like gloves, belts, and boots as well as inferior items
-	- Hide non-ideal white items that are NOT class items, kite shields, polearms, big swords, and light armors
+	- Hide gold (but you still pick up)
+	- Hide non-necessary white items like keys and quivers
+	- Hide non-usable white items like gloves, belts, and boots as well as inferior items
+	- Hide non-ideal white items for runewords (this is subjective!)
 - Filter Level 2 - ``Hide Junk, Magic``
-	- Hide all magic items except rings, amulets, charms, and elite craftable gloves, belts, and boots
+	- Hide magic items except rings, amulets, charms, and elite craftable gloves, belts, and boots
 - Filter Level 3 - ``Hide Junk, Magic, Rare``
-	- Hide all rare items except rings, amulets, quivers, gloves, belts, and boots
+	- Hide rare items except rings, amulets, quivers, gloves, belts, and boots
 - Filter Level 4 - ``Hide Junk, Magic, Rare, Non-Tier``
 	- Hide non-elite white items
 	- Non-tier set and unique items still drop, but no longer print in the chat
 
-The loot filter will ALWAYS show:
+The loot filter will always:
 
-- Level appropriate potions
-- Light armors ideal for runewords, as well as common weapons
-- Elite ethereal armors ideal for mercenary runewords
-- Magic rings, amulets, charms, and elite craftable gloves, belts, and boots
-- Rare rings, amulets, quivers, gloves, belts, and boots
-- Set and unique items
+- Show level appropriate potions
+- Show light base armors ideal for runewords, as well as ideal base weapons
+- Show elite ethereal base armors ideal for mercenary runewords
+- Show magic rings, amulets, charms, and elite craftable gloves, belts, and boots
+- Show rare rings, amulets, quivers, gloves, belts, and boots
+- Show set and unique items, and print to the chat (except at level 4)
+- Show tier 5+ base items
 
-You can read the ``default.filter`` file to see more information about how it's designed.
+You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions at at the very bottom of the file.
 
 ## Credits
 
