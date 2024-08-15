@@ -667,7 +667,7 @@ ItemDisplay[upma]: %LIGHT_GRAY%o %TEAL%Angelic %GRAY%Orb%DOT-D3%%CONTINUE% // An
 ItemDisplay[urma]: %LIGHT_GRAY%+o %TEAL%Angelic %GRAY%Orb%DOT-D3%%CONTINUE% // Infused Angelic Orb
 ItemDisplay[rera]: %LIGHT_GRAY%o %TEAL%Horadrim %GRAY%Orb%DOT-D3%%CONTINUE% // Horadrim Orb
 ItemDisplay[rrra]: %LIGHT_GRAY%+o %TEAL%Horadrim %GRAY%Infused Orb%DOT-D3%%CONTINUE% // Infused Horadrim Orb
-ItemDisplay[scou]: %LIGHT_GRAY%o %TEAL%Descruction %GRAY%Orb%DOT-D3%%CONTINUE% // Orb of Destruction
+ItemDisplay[scou]: %LIGHT_GRAY%o %TEAL%Destruction %GRAY%Orb%DOT-D3%%CONTINUE% // Orb of Destruction
 ItemDisplay[fort]: %LIGHT_GRAY%o %TEAL%Fortification %GRAY%Orb%DOT-D3%%CONTINUE% // Orb of Fortification
 ItemDisplay[upmp]: %LIGHT_GRAY%o %TEAL%Carographer %GRAY%Orb%DOT-D3%%CONTINUE% // Cartographer's Orb
 ItemDisplay[scrb]: %LIGHT_GRAY%o %TEAL%Horadrim %GRAY%Scarab%DOT-D3%%CONTINUE% // Horadrim Scarab
