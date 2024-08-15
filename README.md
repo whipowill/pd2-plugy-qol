@@ -44,7 +44,7 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 
 Included in this repo is my custom loot filter.  I've spent quite a bit of time perfecting this!  I think it serves as a great loot filter for both new and old players.
 
-- Bind ``+`` and ``-`` adjust loot filter level
+- Bind ``+`` and ``-`` to adjust loot filter level
 - Bind ``CAPLOCK`` to always show loot
 
 | Image 1 | Image 2 |
@@ -55,17 +55,18 @@ Features:
 
 - Tasteful color scheme
 - No information overload
-- Icon system shows item quality
+- Icon system shows gear quality
 - Armors show weight
 - Rings and amulets show item level (for crafting)
 - Runes show rune number (for organization)
 - Sets show set number (for organization)
 - Maps show difficulty level
-- Base items list all runewords possible
 - Weapons and armor show upgrade recipies
 - Special reagents show combination recipies
 - Stackable gems show socket effects
-- Computer generated tier preferences ([Will Scarlet's Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder))
+- Computer generated loot filter codes ([Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder))
+	- Base items list all runewords possible
+	- Tier labels on gear per your preferences (this version uses mine)
 
 | Image 1 | Image 2 | Image 3 |
 |:-------:|:-------:|:-------:|
@@ -76,16 +77,16 @@ Levels:
 - #1 - ``Hide Junk``
 	- Hide low level potions
 	- Hide gold (but you still pick up)
-	- Hide non-necessary white items like keys and quivers
-	- Hide non-usable white items like gloves, belts, and boots as well as inferior items
-	- Hide non-ideal white items for runewords (this is subjective!)
+	- Hide non-necessary base items like keys and quivers
+	- Hide non-usable base items like gloves, belts, and boots as well as inferior items
+	- Hide non-ideal base items for runewords (this is subjective!)
 - #2 - ``Hide Junk, Magic``
 	- Hide magic items except rings, amulets, charms, jewels, and elite craftable gloves, belts, and boots
 - #3 - ``Hide Junk, Magic, Rare``
 	- Hide rare items except rings, amulets, quivers, circlets, gloves, belts, and boots
 - #4 - ``Hide Junk, Magic, Rare, Non-Tier``
-	- Hide non-elite white items
-	- Non-tier set and unique drops no longer print in the chat
+	- Hide non-elite base items
+	- Only tier 5+ gear drops will print in the chat
 
 You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
 
@@ -94,7 +95,7 @@ You can read the ``default.filter`` file to see more information about how it's 
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - initial PlugY files
 - [Bayaraa](https://github.com/bayaraa/d2gl/releases) - video driver ``glide3x.dll``
 - [Jarcho](https://github.com/Jarcho/d2-rs/releases) - fps enhancement ``d2fps.dll``
-- [Public Filters](https://wiki.projectdiablo2.com/wiki/Item_Filtering#List_of_Public_Filters) - borrowed recipie descriptions
+- [Public Filters](https://wiki.projectdiablo2.com/wiki/Item_Filtering#List_of_Public_Filters) - recipie descriptions
 
 ## External Links
 
@@ -104,5 +105,5 @@ You can read the ``default.filter`` file to see more information about how it's 
 - [PD2 Filter Rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
 - [D2 MPQEditor](http://www.zezula.net/en/mpq/download.html) - extract game TXT files
 - [D2 ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - edit game TXT files
-- [Will Scarlet's D2 AutoHotKey](https://github.com/whipowill/ahk-autoattack) - mouse auto-clicker
-- [Will Scarlet's PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
+- [D2 AutoHotKey](https://github.com/whipowill/ahk-autoattack) - mouse auto-clicker
+- [PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
