@@ -61,7 +61,8 @@ Features:
 - Runes show rune number (for organization)
 - Sets show set number (for organization)
 - Maps show difficulty level
-- Weapons and armor show upgrade recipies
+- Set and unique armor/weapons show upgrade recipies
+- All armor/weapons show maximum sockets
 - Special reagents show combination recipies
 - Stackable gems show socket effects
 - Computer generated loot filter codes ([Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder))
