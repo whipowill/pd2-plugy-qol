@@ -75,9 +75,9 @@ The loot filter will always:
 
 You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
 
-## Credits
-
 ![whipowill's PD2 Loot Filter 2](https://i.imgur.com/wYXMpQl.jpeg)
+
+## Credits
 
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - initial PlugY files
 - [Bayaraa](https://github.com/bayaraa/d2gl/releases) - video driver ``glide3x.dll``
