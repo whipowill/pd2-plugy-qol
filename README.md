@@ -47,7 +47,9 @@ Included in this repo is my custom loot filter.  I've spent quite a bit of time 
 - Bind ``+`` and ``-`` adjust loot filter level
 - Bind ``CAPLOCK`` to always show loot
 
-![Loot Filter 1](https://i.imgur.com/Kxy59Gf.jpeg)
+| Image 1 | Image 2 |
+|:-------:|:-------:|
+| ![Alt text 1](https://i.imgur.com/Kxy59Gf.jpeg) | ![Alt text 2](https://i.imgur.com/wYXMpQl.jpeg) |
 
 Features:
 
@@ -64,7 +66,9 @@ Features:
 - Special items show combination recipies
 - Stackable items show socket effects
 
-![Loot Filter 2](https://i.imgur.com/wYXMpQl.jpeg)
+| Image 1 | Image 2 | Image 3 |
+|:-------:|:-------:|:-------:|
+| ![Alt text 1](https://i.imgur.com/BSPfIhV.jpeg) | ![Alt text 2](https://i.imgur.com/5qmgmHv.jpeg) | ![Alt text 3](https://i.imgur.com/gcXLIxg.jpeg) |
 
 Levels:
 
@@ -81,21 +85,6 @@ Levels:
 - Filter L4 - ``Hide Junk, Magic, Rare, Non-Tier``
 	- Hide non-elite white items
 	- Non-tier set and unique drops no longer print in the chat
-
-| Image 1 | Image 2 | Image 3 |
-|:-------:|:-------:|:-------:|
-| ![Alt text 1](https://i.imgur.com/BSPfIhV.jpeg) | ![Alt text 2](https://i.imgur.com/5qmgmHv.jpeg) | ![Alt text 3](https://i.imgur.com/gcXLIxg.jpeg) |
-
-Summary:
-
-- Show level appropriate potions
-- List all runewords possible on an item in it's popup
-- Show light base armors ideal for runewords, as well as ideal base weapons
-- Show elite ethereal base armors ideal for mercenary runewords
-- Show magic rings, amulets, charms, and elite craftable gloves, belts, and boots
-- Show rare rings, amulets, quivers, gloves, belts, and boots
-- Show set and unique items, and print to the chat (except at level 4)
-- Show tier 5+ base items
 
 You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
 
