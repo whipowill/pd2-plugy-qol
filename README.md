@@ -82,6 +82,8 @@ Levels:
 	- Hide non-elite white items
 	- Non-tier set and unique drops no longer print in the chat
 
+| Image 1 | Image 2 | Image 3 |
+|:-------:|:-------:|:-------:|
 | ![Alt text 1](https://i.imgur.com/BSPfIhV.jpeg) | ![Alt text 2](https://i.imgur.com/5qmgmHv.jpeg) | ![Alt text 3](https://i.imgur.com/gcXLIxg.jpeg) |
 
 Summary:
