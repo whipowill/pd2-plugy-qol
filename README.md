@@ -2,7 +2,7 @@
 
 This repo includes my files for playing PD2 w/ PlugY and some minor game tweaks.
 
-![whipowill's PD2 Loot Filter](https://i.imgur.com/Kxy59Gf.jpeg)
+![Project Diablo 2](https://i.imgur.com/UequUwU.jpeg)
 
 ## Install
 
@@ -42,30 +42,52 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 
 ## Loot Filter
 
-Included in this repo is my custom loot filter.  It's a port from my vanilla D2 days that I've been working to make suitable for PD2.  I've spent quite a bit of time perfecting this!
+Included in this repo is my custom loot filter.  I've spent quite a bit of time perfecting this!  I think it serves as a great loot filter for both new and old players.
 
 - Bind ``+`` and ``-`` adjust loot filter level
 - Bind ``CAPLOCK`` to always show loot
 
-Filter Levels:
+![Loot Filter 1](https://i.imgur.com/Kxy59Gf.jpeg)
 
-- Filter Level 1 - ``Hide Junk``
+Features:
+
+- Tasteful color scheme
+- No information overload
+- Icon system shows item quality
+- Armors show weight
+- Rings and amulets show item level (for crafting)
+- Runes show rune number (for organization)
+- Sets show set number (for organization)
+- Maps show difficulty level
+- Base items list all runewords possible
+- Weapons and armor show upgrade recipies
+- Special items show combination recipies
+- Stackable items show socket effects
+
+![Loot Filter 2](https://i.imgur.com/wYXMpQl.jpeg)
+
+Levels:
+
+- Filter L1 - ``Hide Junk``
 	- Hide low level potions
 	- Hide gold (but you still pick up)
 	- Hide non-necessary white items like keys and quivers
 	- Hide non-usable white items like gloves, belts, and boots as well as inferior items
 	- Hide non-ideal white items for runewords (this is subjective!)
-- Filter Level 2 - ``Hide Junk, Magic``
+- Filter L2 - ``Hide Junk, Magic``
 	- Hide magic items except rings, amulets, charms, and elite craftable gloves, belts, and boots
-- Filter Level 3 - ``Hide Junk, Magic, Rare``
+- Filter L3 - ``Hide Junk, Magic, Rare``
 	- Hide rare items except rings, amulets, quivers, gloves, belts, and boots
-- Filter Level 4 - ``Hide Junk, Magic, Rare, Non-Tier``
+- Filter L4 - ``Hide Junk, Magic, Rare, Non-Tier``
 	- Hide non-elite white items
-	- Non-tier set and unique items still drop, but no longer print in the chat
+	- Non-tier set and unique drops no longer print in the chat
 
-The loot filter will always:
+| ![Alt text 1](https://i.imgur.com/BSPfIhV.jpeg) | ![Alt text 2](https://i.imgur.com/5qmgmHv.jpeg) | ![Alt text 3](https://i.imgur.com/gcXLIxg.jpeg) |
+
+Summary:
 
 - Show level appropriate potions
+- List all runewords possible on an item in it's popup
 - Show light base armors ideal for runewords, as well as ideal base weapons
 - Show elite ethereal base armors ideal for mercenary runewords
 - Show magic rings, amulets, charms, and elite craftable gloves, belts, and boots
@@ -75,13 +97,12 @@ The loot filter will always:
 
 You can read the ``default.filter`` file to see more information about how it's designed.  Most of the hiding instructions are at the very bottom of the file.
 
-![whipowill's PD2 Loot Filter 2](https://i.imgur.com/wYXMpQl.jpeg)
-
 ## Credits
 
 - [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - initial PlugY files
 - [Bayaraa](https://github.com/bayaraa/d2gl/releases) - video driver ``glide3x.dll``
 - [Jarcho](https://github.com/Jarcho/d2-rs/releases) - fps enhancement ``d2fps.dll``
+- [Public Filters](https://wiki.projectdiablo2.com/wiki/Item_Filtering#List_of_Public_Filters) - borrowed recipie descriptions
 
 ## External Links
 
