@@ -1,7 +1,6 @@
 # Project Diablo 2
 
 ![whipowill's PD2 Loot Filter](https://i.imgur.com/Kxy59Gf.jpeg)
-![whipowill's PD2 Loot Filter 2](https://i.imgur.com/0XPyGuz.jpeg)
 
 This repo includes my files for playing PD2 w/ PlugY and some minor game tweaks.
 
@@ -31,7 +30,7 @@ See the PD2 wiki [bugs](https://projectdiablo2.miraheze.org/wiki/Bugs) page a li
 
 Some notes about video settings.
 
-I instructed PlugY to load ``d2fps.json``which is an extra library that works even better at motion prediction.  It requires that ``d2gl.dll`` (which is icluded with PD2) have motion prediction turned off.
+I instructed PlugY to load ``d2fps.dll``which is an extra library that works even better at motion prediction.  It requires that ``glide3x.dll`` (the D2GL video driver icluded with PD2) have motion prediction turned off.
 
 I load this extra DLL thru PlugY instead of D2GL bc a) it works better that way, and b) you can still load normal PD2 to play online bc this extra DLL will cause PD2 to kick you.
 
@@ -78,9 +77,13 @@ You can read the ``default.filter`` file to see more information about how it's 
 
 ## Credits
 
-Thanks to [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) for the initial PlugY files I used in this repo.
+![whipowill's PD2 Loot Filter 2](https://i.imgur.com/wYXMpQl.jpeg)
 
-### External Links
+- [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) - initial PlugY files
+- [Bayaraa](https://github.com/bayaraa/d2gl/releases) - video driver ``glide3x.dll``
+- [Jarcho](https://github.com/Jarcho/d2-rs/releases) - fps enhancement ``d2fps.dll``
+
+## External Links
 
 - [PD2 Website](https://www.projectdiablo2.com/) - official website
 - [PD2 Wikipedia](https://projectdiablo2.miraheze.org/wiki) - official wiki
@@ -88,5 +91,5 @@ Thanks to [BetweenWalls](https://github.com/BetweenWalls/PD2-PlugY) for the init
 - [PD2 Filter Rules](https://projectdiablo2.miraheze.org/wiki/Item_Filtering) - loot filter rules
 - [D2 MPQEditor](http://www.zezula.net/en/mpq/download.html) - extract game TXT files
 - [D2 ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - edit game TXT files
-- [whipowill's D2 AutoHotKey](https://github.com/whipowill/ahk-autoattack) - mouse auto-clicker
-- [whipowill's PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
+- [Will Scarlet's D2 AutoHotKey](https://github.com/whipowill/ahk-autoattack) - mouse auto-clicker
+- [Will Scarlet's PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
