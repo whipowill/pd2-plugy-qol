@@ -1460,5 +1460,5 @@ ItemDisplay[FILTLVL>1 MAG (ARMOR OR WEAPON) !(ELT (GLOVES OR BOOTS OR BELT))]:
 // if lvl 3+ - hide all rare armor/weapons that are not circlets, gloves, boots, or belts
 ItemDisplay[FILTLVL>2 RARE (ARMOR OR WEAPON) !(CIRC OR GLOVES OR BOOTS OR BELT)]:
 
-// if lvl 4 - hide all white armor/weapons that are not elite (the tier codes above don't CONTINUE, so this never triggers)
+// if lvl 4 - hide all base armor/weapons that are not elite (the tier items above don't CONTINUE, so this never triggers)
 ItemDisplay[FILTLVL>2 NMAG !RW (ARMOR OR WEAPON) !ELT]:
