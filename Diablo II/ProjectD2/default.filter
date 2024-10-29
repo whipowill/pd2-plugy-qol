@@ -62,7 +62,7 @@ ItemDisplay[ass OR tr1 OR box OR msf OR vip OR hst]: %LIGHT_GRAY%o %GOLD%%NAME%%
 ItemDisplay[mss]: %LIGHT_GRAY%o %BLUE%Mephisto's %GRAY%Soulstone%DOT-94%
 ItemDisplay[cx6]: %LIGHT_GRAY%o %BLUE%Diablo's %GRAY%Soulstone%DOT-94%
 ItemDisplay[qey OR qbr OR qhr]: %LIGHT_GRAY%x %PURPLE%%NAME% %GRAY%Organ%DOT-9B%
-ItemDisplay[j34 OR g34 OR xyz OR g33 OR bbb OR qf1 OR qf2 OR ]: %LIGHT_GRAY%o %GOLD%%NAME%%DOT-D3%
+ItemDisplay[j34 OR g34 OR xyz OR g33 OR bbb OR qf1 OR qf2]: %LIGHT_GRAY%o %GOLD%%NAME%%DOT-D3%
 
 // Act IV
 // - Hellforge Hammer (hfh)
@@ -77,9 +77,8 @@ ItemDisplay[tr2]: %LIGHT_GRAY%o %GOLD%%NAME%%DOT-D3%
 // - Diablo's Horn (dhn)
 // - Baal's Eye (bey)
 // - Mephisto's Brain (mbr)
-// - Standard of Heroes (std)
 // - Keys (pk1, pk2, pk3)
-ItemDisplay[dhn OR bey OR mbr OR std]: %LIGHT_GRAY%x %PURPLE%%NAME% %GRAY%Organ{Grants access to Uber Tristram%CL%3x %PURPLE%Uber Organs %WHITE%+ Key = %PURPLE%Pandemonium Talisman}%DOT-9B%
+ItemDisplay[dhn OR bey OR mbr]: %LIGHT_GRAY%x %PURPLE%%NAME% %GRAY%Organ{Grants access to Uber Tristram%CL%3x %PURPLE%Uber Organs %WHITE%+ Key = %PURPLE%Pandemonium Talisman}%DOT-9B%
 ItemDisplay[pk1]: %LIGHT_GRAY%x| %PURPLE%Terror %GRAY%Key{Grants access to Uber Tristram pre-quests%CL%Drops from Countess & Blood Raven%CL%%PURPLE%Terror %WHITE%+ %PURPLE%Hate %WHITE%+ %PURPLE%Destruction %WHITE%= %PURPLE%Random Portal}%DOT-9B%
 ItemDisplay[pk2]: %LIGHT_GRAY%x| %PURPLE%Hate %GRAY%Key{Grants access to Uber Tristram pre-quests%CL%Drops from Summoner & Bloodwitch%CL%%PURPLE%Terror %WHITE%+ %PURPLE%Hate %WHITE%+ %PURPLE%Destruction %WHITE%= %PURPLE%Random Portal}%DOT-9B%
 ItemDisplay[pk3]: %LIGHT_GRAY%x| %PURPLE%Destruction %GRAY%Key{Grants access to Uber Tristram pre-quests%CL%Drops from Nihlathak & Izual%CL%%PURPLE%Terror %WHITE%+ %PURPLE%Hate %WHITE%+ %PURPLE%Destruction %WHITE%= %PURPLE%Random Portal}%DOT-9B%
@@ -179,38 +178,38 @@ ItemDisplay[FILTLVL>0 NMAG !leg !RW SOCK=1]:
 ItemDisplay[FILTLVL>0 NMAG !(leg) (EQ4 OR EQ5 OR EQ6)]:
 
 // Set numbers for organization purposes
-ItemDisplay[ID SET ((swb LVLREQ>1 LVLREQ<3) OR (qui LVLREQ>1 LVLREQ<3) OR (vbl LVLREQ>1 LVLREQ<3) OR (tgl LVLREQ>1 LVLREQ<3))]: %NAME% %GRAY%1%CONTINUE% // Arctic Gear (lvl 2-2)
-ItemDisplay[ID SET ((hlm LVLREQ>2 LVLREQ<4) OR (spl LVLREQ>2 LVLREQ<4) OR (2ax LVLREQ>2 LVLREQ<4))]: %NAME% %GRAY%2%CONTINUE% // Berserker's Garb (lvl 3-3)
-ItemDisplay[ID SET ((mbt LVLREQ>2 LVLREQ<4) OR (buc LVLREQ>2 LVLREQ<4) OR (mbl LVLREQ>2 LVLREQ<4))]: %NAME% %GRAY%3%CONTINUE% // Hsarus' Defense (lvl 3-3)
-ItemDisplay[ID SET ((lsd LVLREQ>3 LVLREQ<5) OR (sml LVLREQ>3 LVLREQ<5) OR (mgl LVLREQ>3 LVLREQ<5))]: %NAME% %GRAY%4%CONTINUE% // Cleglaw's Brace (lvl 4-4)
-ItemDisplay[ID SET ((cap LVLREQ>4 LVLREQ<6) OR (dgr LVLREQ>4 LVLREQ<6) OR (tbl LVLREQ>4 LVLREQ<6))]: %NAME% %GRAY%5%CONTINUE% // Infernal Tools (lvl 5-5)
-ItemDisplay[ID SET ((lgl LVLREQ>5 LVLREQ<7) OR (lbl LVLREQ>5 LVLREQ<7) OR (wsd LVLREQ>5 LVLREQ<7))]: %NAME% %GRAY%6%CONTINUE% // Death's Disguise (lvl 6-6)
-ItemDisplay[ID SET ((hgl LVLREQ>5 LVLREQ<7) OR (ghm LVLREQ>5 LVLREQ<7) OR (gth LVLREQ>5 LVLREQ<7) OR (hbt LVLREQ>5 LVLREQ<7) OR (hbl LVLREQ>5 LVLREQ<7) OR (tow LVLREQ>5 LVLREQ<7))]: %NAME% %GRAY%7%CONTINUE% // Sigon's Complete Steel (lvl 6-6)
-ItemDisplay[ID SET ((bsd LVLREQ>7 LVLREQ<9) OR (gts LVLREQ>7 LVLREQ<9) OR (brs LVLREQ>7 LVLREQ<9) OR (fhl LVLREQ>7 LVLREQ<9))]: %NAME% %GRAY%8%CONTINUE% // Isenhart's Armory (lvl 8-8)
-ItemDisplay[ID SET ((lrg LVLREQ>8 LVLREQ<10) OR (gsc LVLREQ>8 LVLREQ<10))]: %NAME% %GRAY%9%CONTINUE% // Civerb's Vestments (lvl 9-9)
-ItemDisplay[ID SET ((bst LVLREQ>9 LVLREQ<13) OR (chn LVLREQ>9 LVLREQ<13) OR (msk LVLREQ>9 LVLREQ<13))]: %NAME% %GRAY%10%CONTINUE% // Cathan's Traps (lvl 11-11)
-ItemDisplay[ID SET ((sbr LVLREQ>10 LVLREQ<14) OR (rng LVLREQ>10 LVLREQ<14))]: %NAME% %GRAY%11%CONTINUE% // Angelical Raiment (lvl 12-12)
-ItemDisplay[ID SET ((lbb LVLREQ>12 LVLREQ<16) OR (tbt LVLREQ>12 LVLREQ<16) OR (lea LVLREQ>12 LVLREQ<16))]: %NAME% %GRAY%12%CONTINUE% // Vidala's Rig (lvl 14-14)
-ItemDisplay[ID SET ((wst LVLREQ>13 LVLREQ<17) OR (skp LVLREQ>13 LVLREQ<17) OR (ltp LVLREQ>13 LVLREQ<17))]: %NAME% %GRAY%13%CONTINUE% // Arcanna's Tricks (lvl 15-15)
-ItemDisplay[ID SET ((tgl LVLREQ>13 LVLREQ<17) OR (crn LVLREQ>13 LVLREQ<17) OR (tbl LVLREQ>13 LVLREQ<17))]: %NAME% %GRAY%14%CONTINUE% // Iratha's Finery (lvl 15-15)
-ItemDisplay[ID SET ((kit LVLREQ>15 LVLREQ<19) OR (wsp LVLREQ>15 LVLREQ<19) OR (crn LVLREQ>15 LVLREQ<19) OR (aar LVLREQ>15 LVLREQ<19))]: %NAME% %GRAY%15%CONTINUE% // Milabrega's Regalia (lvl 17-17)
-ItemDisplay[ID SET ((mpi LVLREQ>18 LVLREQ<22) OR (ful LVLREQ>18 LVLREQ<22) OR (lbt LVLREQ>18 LVLREQ<22) OR (bhm LVLREQ>18 LVLREQ<22))]: %NAME% %GRAY%16%CONTINUE% // Tancred's Battlegear (lvl 20-20)
-ItemDisplay[ID SET ((xap LVLREQ>22 LVLREQ<28) OR (stu LVLREQ>16 LVLREQ<20) OR (vbt LVLREQ>11 LVLREQ<15))]: %NAME% %GRAY%17%CONTINUE% // Cow King's Leathers (lvl 13-25)
-ItemDisplay[ID SET ((cap LVLREQ>22 LVLREQ<28) OR (vbt LVLREQ>18 LVLREQ<22) OR (vgl LVLREQ>25 LVLREQ<31) OR (bwn LVLREQ>22 LVLREQ<28))]: %NAME% %GRAY%18%CONTINUE% // McAuley's Folly (lvl 20-28)
-ItemDisplay[ID SET ((xhm LVLREQ>30 LVLREQ<38) OR (ztb LVLREQ>37 LVLREQ<47) OR (xvg LVLREQ>33 LVLREQ<41) OR (xml LVLREQ>26 LVLREQ<32))]: %NAME% %GRAY%19%CONTINUE% // Orphan's Call (lvl 29-42)
-ItemDisplay[ID SET ((xrn LVLREQ>40 LVLREQ<50) OR (xcl LVLREQ>27 LVLREQ<33) OR (mbl LVLREQ>31 LVLREQ<39) OR (9vo LVLREQ>25 LVLREQ<31))]: %NAME% %GRAY%20%CONTINUE% // Hwanin's Majesty (lvl 28-45)
-ItemDisplay[ID SET ((7gd LVLREQ>54 LVLREQ<68) OR (7fb LVLREQ>48 LVLREQ<60))]: %NAME% %GRAY%21%CONTINUE% // Bul-Kathos' Children (lvl 54-61)
-ItemDisplay[ID SET ((ulg LVLREQ>56 LVLREQ<70) OR (xlb LVLREQ>26 LVLREQ<32) OR (uui LVLREQ>38 LVLREQ<48) OR (umc LVLREQ>58 LVLREQ<72))]: %NAME% %GRAY%22%CONTINUE% // The Disciple (lvl 29-65)
-ItemDisplay[ID SET ((uh9 LVLREQ>58 LVLREQ<72) OR (xul LVLREQ>44 LVLREQ<54) OR (ne9 LVLREQ>48 LVLREQ<60) OR (xmg LVLREQ>40 LVLREQ<50) OR (utc LVLREQ>42 LVLREQ<52))]: %NAME% %GRAY%23%CONTINUE% // Trang-Oul's Avatar (lvl 45-65)
-ItemDisplay[ID SET ((urn LVLREQ>62 LVLREQ<76) OR (xar LVLREQ>40 LVLREQ<50) OR (7ws LVLREQ>47 LVLREQ<59) OR (paf LVLREQ>61 LVLREQ<75))]: %NAME% %GRAY%24%CONTINUE% // Griswold's Legacy (lvl 45-69)
-ItemDisplay[ID SET ((ci3 LVLREQ>53 LVLREQ<65) OR (uld LVLREQ>63 LVLREQ<77) OR (xtg LVLREQ>28 LVLREQ<36) OR (zvb LVLREQ>40 LVLREQ<50) OR (amc LVLREQ>63 LVLREQ<77))]: %NAME% %GRAY%25%CONTINUE% // M'avina's Battle Hymn (lvl 32-70)
-ItemDisplay[ID SET ((zmb LVLREQ>47 LVLREQ<59) OR (oba LVLREQ>58 LVLREQ<72) OR (uth LVLREQ>63 LVLREQ<79) OR (xsk LVLREQ>59 LVLREQ<73))]: %NAME% %GRAY%26%CONTINUE% // Tal Rasha's Wrappings (lvl 53-71)
-ItemDisplay[ID SET ((7ls LVLREQ>65 LVLREQ<81) OR (upl LVLREQ>60 LVLREQ<74) OR (xhl LVLREQ>38 LVLREQ<48))]: %NAME% %GRAY%27%CONTINUE% // Sazabi's Grand Tribute (lvl 43-73)
-ItemDisplay[ID SET ((dr8 LVLREQ>32 LVLREQ<40) OR (uul LVLREQ>68 LVLREQ<84) OR (9mt LVLREQ>37 LVLREQ<47) OR (xtb LVLREQ>40 LVLREQ<50))]: %NAME% %GRAY%28%CONTINUE% // Aldur's Watchtower (lvl 36-76)
-ItemDisplay[ID SET ((ba5 LVLREQ>42 LVLREQ<52) OR (uar LVLREQ>68 LVLREQ<84) OR (zhb LVLREQ>26 LVLREQ<32) OR (xhg LVLREQ>27 LVLREQ<33) OR (xhb LVLREQ>27 LVLREQ<35) OR (7m7 LVLREQ>68 LVLREQ<84))]: %NAME% %GRAY%29%CONTINUE% // Immortal King (lvl 29-76)
-ItemDisplay[ID SET ((6cs LVLREQ>70 LVLREQ<86) OR (ult LVLREQ>63 LVLREQ<79) OR (ci0 LVLREQ>25 LVLREQ<31))]: %NAME% %GRAY%30%CONTINUE% // Naj's Ancient Set (lvl 28-78)
-ItemDisplay[ID SET ((xh9 LVLREQ>53 LVLREQ<65) OR (7qr LVLREQ>71 LVLREQ<87) OR (ucl LVLREQ>65 LVLREQ<81) OR (xmb LVLREQ>22 LVLREQ<28))]: %NAME% %GRAY%31%CONTINUE% // Natalya's Odium (lvl 25-79)
-ItemDisplay[ID SET ((7ma LVLREQ>61 LVLREQ<75) OR (uts LVLREQ>72 LVLREQ<90) OR (xrs LVLREQ>39 LVLREQ<49) OR (uhm LVLREQ>62 LVLREQ<76))]: %NAME% %GRAY%32%CONTINUE% // Heaven's Brethren (lvl 44-81)
+ItemDisplay[ID SET ((swb) OR (qui) OR (vbl) OR (tgl LVLREQ<10))]: %NAME% %GRAY%1%CONTINUE% // Arctic Gear (lvl 2-2)
+ItemDisplay[ID SET ((hlm) OR (spl) OR (2ax))]: %NAME% %GRAY%2%CONTINUE% // Berserker's Garb (lvl 3-3)
+ItemDisplay[ID SET ((mbt) OR (buc) OR (mbl LVLREQ<20))]: %NAME% %GRAY%3%CONTINUE% // Hsarus' Defense (lvl 3-3)
+ItemDisplay[ID SET ((lsd) OR (sml) OR (mgl))]: %NAME% %GRAY%4%CONTINUE% // Cleglaw's Brace (lvl 4-4)
+ItemDisplay[ID SET ((cap LVLREQ<16) OR (dgr) OR (tbl LVLREQ<11))]: %NAME% %GRAY%5%CONTINUE% // Infernal Tools (lvl 5-5)
+ItemDisplay[ID SET ((lgl) OR (lbl) OR (wsd))]: %NAME% %GRAY%6%CONTINUE% // Death's Disguise (lvl 6-6)
+ItemDisplay[ID SET ((hgl) OR (ghm) OR (gth) OR (hbt) OR (hbl) OR (tow))]: %NAME% %GRAY%7%CONTINUE% // Sigon's Complete Steel (lvl 6-6)
+ItemDisplay[ID SET ((bsd) OR (gts) OR (brs) OR (fhl))]: %NAME% %GRAY%8%CONTINUE% // Isenhart's Armory (lvl 8-8)
+ItemDisplay[ID SET ((lrg) OR (gsc))]: %NAME% %GRAY%9%CONTINUE% // Civerb's Vestments (lvl 9-9)
+ItemDisplay[ID SET ((bst) OR (chn) OR (msk))]: %NAME% %GRAY%10%CONTINUE% // Cathan's Traps (lvl 11-11)
+ItemDisplay[ID SET ((sbr) OR (rng))]: %NAME% %GRAY%11%CONTINUE% // Angelical Raiment (lvl 12-12)
+ItemDisplay[ID SET ((lbb) OR (tbt) OR (lea))]: %NAME% %GRAY%12%CONTINUE% // Vidala's Rig (lvl 14-14)
+ItemDisplay[ID SET ((wst) OR (skp) OR (ltp))]: %NAME% %GRAY%13%CONTINUE% // Arcanna's Tricks (lvl 15-15)
+ItemDisplay[ID SET ((tgl LVLREQ>9) OR (crn LVLREQ<17) OR (tbl LVLREQ>10))]: %NAME% %GRAY%14%CONTINUE% // Iratha's Finery (lvl 15-15)
+ItemDisplay[ID SET ((kit) OR (wsp) OR (crn LVLREQ>16) OR (aar))]: %NAME% %GRAY%15%CONTINUE% // Milabrega's Regalia (lvl 17-17)
+ItemDisplay[ID SET ((mpi) OR (ful) OR (lbt) OR (bhm))]: %NAME% %GRAY%16%CONTINUE% // Tancred's Battlegear (lvl 20-20)
+ItemDisplay[ID SET ((xap) OR (stu) OR (vbt LVLREQ<18))]: %NAME% %GRAY%17%CONTINUE% // Cow King's Leathers (lvl 13-25)
+ItemDisplay[ID SET ((cap LVLREQ>15) OR (vbt LVLREQ>17) OR (vgl) OR (bwn))]: %NAME% %GRAY%18%CONTINUE% // McAuley's Folly (lvl 20-28)
+ItemDisplay[ID SET ((xhm) OR (ztb) OR (xvg) OR (xml))]: %NAME% %GRAY%19%CONTINUE% // Orphan's Call (lvl 29-42)
+ItemDisplay[ID SET ((xrn) OR (xcl) OR (mbl LVLREQ>19) OR (9vo))]: %NAME% %GRAY%20%CONTINUE% // Hwanin's Majesty (lvl 28-45)
+ItemDisplay[ID SET ((7gd) OR (7fb))]: %NAME% %GRAY%21%CONTINUE% // Bul-Kathos' Children (lvl 54-61)
+ItemDisplay[ID SET ((ulg) OR (xlb) OR (uui) OR (umc))]: %NAME% %GRAY%22%CONTINUE% // The Disciple (lvl 29-65)
+ItemDisplay[ID SET ((uh9) OR (xul) OR (ne9) OR (xmg) OR (utc))]: %NAME% %GRAY%23%CONTINUE% // Trang-Oul's Avatar (lvl 45-65)
+ItemDisplay[ID SET ((urn) OR (xar) OR (7ws) OR (paf))]: %NAME% %GRAY%24%CONTINUE% // Griswold's Legacy (lvl 45-69)
+ItemDisplay[ID SET ((ci3) OR (uld) OR (xtg) OR (zvb) OR (amc))]: %NAME% %GRAY%25%CONTINUE% // M'avina's Battle Hymn (lvl 32-70)
+ItemDisplay[ID SET ((zmb) OR (oba) OR (uth) OR (xsk))]: %NAME% %GRAY%26%CONTINUE% // Tal Rasha's Wrappings (lvl 53-71)
+ItemDisplay[ID SET ((7ls) OR (upl) OR (xhl))]: %NAME% %GRAY%27%CONTINUE% // Sazabi's Grand Tribute (lvl 43-73)
+ItemDisplay[ID SET ((dr8) OR (uul) OR (9mt) OR (xtb))]: %NAME% %GRAY%28%CONTINUE% // Aldur's Watchtower (lvl 36-76)
+ItemDisplay[ID SET ((ba5) OR (uar) OR (zhb) OR (xhg) OR (xhb) OR (7m7))]: %NAME% %GRAY%29%CONTINUE% // Immortal King (lvl 29-76)
+ItemDisplay[ID SET ((6cs) OR (ult) OR (ci0))]: %NAME% %GRAY%30%CONTINUE% // Naj's Ancient Set (lvl 28-78)
+ItemDisplay[ID SET ((xh9) OR (7qr) OR (ucl) OR (xmb))]: %NAME% %GRAY%31%CONTINUE% // Natalya's Odium (lvl 25-79)
+ItemDisplay[ID SET ((7ma) OR (uts) OR (xrs) OR (uhm))]: %NAME% %GRAY%32%CONTINUE% // Heaven's Brethren (lvl 44-81)
 
 // Display Sockets
 ItemDisplay[SOCK>0 !RW NMAG]: %NAME% %GRAY%(%SOCKETS%)%CONTINUE%
@@ -459,8 +458,8 @@ ItemDisplay[RARE jew]: %LIGHT_GRAY%o %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[UNI jew]: %LIGHT_GRAY%o %GOLD%%NAME%%CONTINUE%
 
 // Alarms
-ItemDisplay[MAG jew FILTLVL<2]: %NAME%%DOT-94%%CONTINUE%
-ItemDisplay[RARE jew FILTLVL<3]: %NAME%%DOT-6A%%CONTINUE%
+//ItemDisplay[MAG jew FILTLVL<2]: %NAME%%DOT-94%%CONTINUE%
+//ItemDisplay[RARE jew FILTLVL<3]: %NAME%%DOT-6A%%CONTINUE%
 ItemDisplay[UNI jew FILTLVL<4]: %NAME%%DOT-D3%%CONTINUE%
 
 //=================================================
@@ -513,8 +512,8 @@ ItemDisplay[GEMLEVEL<4 FILTLVL>0]:
 //=================================================
 
 // Rename
-ItemDisplay[ibk]: %RED%|o| %WHITE%ID %GRAY%Tome%CONTINUE%
-ItemDisplay[tbk]: %BLUE%|o| %WHITE%Town %GRAY%Tome%CONTINUE%
+ItemDisplay[ibk]: %RED%o %WHITE%ID %GRAY%Tome%CONTINUE%
+ItemDisplay[tbk]: %BLUE%o %WHITE%TP %GRAY%Tome%CONTINUE%
 ItemDisplay[tsc]: %BLUE%o %WHITE%TP%CONTINUE%
 ItemDisplay[isc]: %RED%o %WHITE%ID%CONTINUE%
 ItemDisplay[vps]: %WHITE%o Stam%CONTINUE% // stamina potions
@@ -659,6 +658,7 @@ ItemDisplay[MAPTIER=4]: %PURPLE%M4% %GRAY%D %NAME%%CONTINUE%
 ItemDisplay[MAPTIER>0]: %NAME%%DOT-1F%%CONTINUE%
 
 // Map Orbs
+ItemDisplay[std]: %LIGHT_GRAY%\%TEAL%\ %TEAL%Hero %GRAY%Standard%DOT-D3%%CONTINUE% // - Standard of Heroes (std)
 ItemDisplay[imma]: %LIGHT_GRAY%o %TEAL%Arcane %GRAY%Orb%DOT-D3%%CONTINUE% // Arcane Orb
 ItemDisplay[irma]: %LIGHT_GRAY%+o %TEAL%Arcane %GRAY%Orb%DOT-D3%%CONTINUE% // Infused Arcane Orb
 ItemDisplay[imra]: %LIGHT_GRAY%o %TEAL%Zakarum %GRAY%Orb%DOT-D3%%CONTINUE% // Zakarum Orb
@@ -866,7 +866,7 @@ ItemDisplay[]: %NAME%{%NAME%}%DARK_GREEN%%CONTINUE%
 //=================================================
 
 // These filter codes are computer generated:
-// https://github.com/whipowill/php-pd2-filter-builder
+// https://github.com/whipowill/php-pd2-lfb
 
 ItemDisplay[NMAG !RW !INF ((BOW OR XBOW) OR (SPEAR) OR (POLEARM) OR (STAFF)) SOCK=5]: %NAME%{%NAME%%CL%%GOLD%Zenith %GRAY%69}%CONTINUE%
 ItemDisplay[NMAG !RW !INF ((DIN)) SOCK=4]: %NAME%{%NAME%%CL%%GOLD%Shattered Wall %GRAY%69}%CONTINUE%
@@ -979,7 +979,7 @@ ItemDisplay[NMAG !RW !INF ((HELM OR CIRC OR BAR OR DRU)) SOCK=2]: %NAME%{%NAME%%
 //=================================================
 
 // These filter codes are computer generated:
-// https://github.com/whipowill/php-pd2-filter-builder
+// https://github.com/whipowill/php-pd2-lfb
 
 // Uniques
 ItemDisplay[!INF UNI cm1]: %RED%T3 %WHITE%%NAME%{%NAME%}
@@ -1454,8 +1454,8 @@ ItemDisplay[!INF NMAG EXC DIN RES>19]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 // if lvl 1+ - hide all white armors/weapons that are not circlets, class items, light armors, good shields, good polearms, good swords
 ItemDisplay[FILTLVL>0 NMAG !RW (ARMOR OR WEAPON) !(ETH ARMOR) !(CIRC OR CLASS) !(kit OR xit OR uit) !(scy OR pax OR hal OR 9s8 OR 9pa OR 9h9 OR 7s8 OR 7pa OR 7h7) !(gsd OR flb OR 9gd OR 9fb OR 7gd OR 7fb) !(utu OR utp OR uui OR xtu OR xtp OR xrs OR stu OR ltp OR brs)]:
 
-// if lvl 2+ - hide all magic armors/weapons that are not elite gloves, boots, or belts
-ItemDisplay[FILTLVL>1 MAG (ARMOR OR WEAPON) !(ELT (GLOVES OR BOOTS OR BELT))]:
+// if lvl 2+ - hide all magic armors/weapons/quivers that are not elite gloves, boots, or belts
+ItemDisplay[FILTLVL>1 MAG (ARMOR OR WEAPON OR aqv OR cqv) !(ELT (GLOVES OR BOOTS OR BELT))]:
 
 // if lvl 3+ - hide all rare armor/weapons that are not circlets, gloves, boots, or belts
 ItemDisplay[FILTLVL>2 RARE (ARMOR OR WEAPON) !(CIRC OR GLOVES OR BOOTS OR BELT)]:

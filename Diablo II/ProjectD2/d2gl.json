@@ -9,7 +9,7 @@
         "window_fullscreen": true,
         "window_vsync": false,
         "foreground_fps_active": false,
-        "foreground_fps_value": 60,
+        "foreground_fps_value": 90,
         "background_fps_active": false,
         "background_fps_value": 25,
         "auto_minimize": false,
@@ -31,7 +31,7 @@
         "stretched_vertical": false
     },
     "features": {
-        "hd_cursor": true,
+        "hd_cursor": false,
         "hd_text": true,
         "hd_text_scale": 1.0,
         "mini_map": false,
@@ -48,8 +48,8 @@
         "gl_ver_major": 4,
         "gl_ver_minor": 6,
         "use_compute_shader": false,
-        "frame_latency": 3,
-        "load_dlls_early": "",
+        "frame_latency": 1,
+        "load_dlls_early": "d2fps.dll:stdcall:_Init@0",
         "load_dlls_late": "SGD2FreeRes.dll"
     }
 }

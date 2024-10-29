@@ -111,4 +111,6 @@ You can read the ``default.filter`` file to see more information about how it's 
 - [D2 MPQEditor](http://www.zezula.net/en/mpq/download.html) - extract game TXT files
 - [D2 ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - edit game TXT files
 - [D2 AutoHotKey](https://github.com/whipowill/ahk-autoattack) - mouse auto-clicker
-- [PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-filter-builder) - build your own tier list
+- [PD2 Loot Filter Builder](https://github.com/whipowill/php-pd2-lfb) - build your own tier list
+- [D2 Armor Appearances](https://i.redd.it/qw4onikwxdx71.jpg) - see how armor looks
+- [Arreat Summit](http://classic.battle.net/diablo2exp/items/basics.shtml) - info on the original game
