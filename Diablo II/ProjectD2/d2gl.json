@@ -1,7 +1,7 @@
 {
     "screen": {
-        "window_size_width": 3840,
-        "window_size_height": 2160,
+        "window_size_width": 1920,
+        "window_size_height": 1080,
         "window_centered": true,
         "window_position_x": 0,
         "window_position_y": 0,
@@ -16,7 +16,7 @@
         "window_dark_mode": true
     },
     "graphics": {
-        "shader_preset": "xbr\\other\\4xbr-hybrid-crt.slangp",
+        "shader_preset": "",
         "sharpen": false,
         "sharpen_strength": 1.2000000476837158,
         "sharpen_clamp": 0.800000011920929,
